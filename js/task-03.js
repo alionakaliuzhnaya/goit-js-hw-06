@@ -22,3 +22,4 @@ images.forEach(element => {
 });
 imagesEl.style.display = 'flex';
 imagesEl.style.listStyleType = 'none';
+imagesEl.style.justifyContent = 'center';
