@@ -5,6 +5,5 @@ const makeIngredientsList = ingredients.forEach(ingredient => {
   const ingredientsEl = document.createElement('li');
   ingredientsEl.textContent = ingredient;
   ingredientsEl.classList.add('item');
-  ingredientsListEl.append(ingredientsEl);
+  ingredientsListEl.appendChild(ingredientsEl);
 });
-console.log(ingredientsListEl);
